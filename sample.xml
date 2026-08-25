@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel rdf:about="https://public-comment.e-gov.go.jp/rss/pcm_list.xml">
+    <title>パブリックコメント・意見募集案件一覧</title>
+    <description>パブリックコメントでの意見募集案件一覧です。</description>
+    <link>https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTLIST&amp;Mode=0</link>
+  </channel>
+  <item rdf:about="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=145210763&amp;Mode=0">
+    <title>「消費者保護ルール実施状況のモニタリング2026年度調査計画」（案）に対する意見募集</title>
+    <link>https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=145210763&amp;Mode=0</link>
+    <description>案の公示日：2026/08/25&lt;br/&gt;受付締切日時：2026/09/25 00:00&lt;br/&gt;カテゴリー：電気通信&lt;br/&gt;問合せ先（所管省庁・部局名等）：総務省総合通信基盤局電気通信事業部料金サービス課消費者契約適正化推進室 電話：03-5253-5488&lt;br/&gt;</description>
+    <dc:date>2026-08-24T15:00:Z</dc:date>
+  </item>
+  <item rdf:about="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=195260051&amp;Mode=0">
+    <title>「環境影響評価法施行令の一部を改正する政令案」等に関する意見の募集（パブリックコメント）について</title>
+    <link>https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=195260051&amp;Mode=0</link>
+    <description>案の公示日：2026/08/25&lt;br/&gt;受付締切日時：2026/09/24 00:00&lt;br/&gt;カテゴリー：環境保全&lt;br/&gt;問合せ先（所管省庁・部局名等）：環境省大臣官房環境影響評価課（03-3581-3351）&lt;br/&gt;</description>
+    <dc:date>2026-08-24T15:00:Z</dc:date>
+  </item>
+  <item rdf:about="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=315000143&amp;Mode=0">
+    <title>「出入国管理及び難民認定法第七条第一項第二号の規定に基づき同法別表第一の五の表の下欄に掲げる活動を定める件の一部を改正する件（案）」に係る意見募集について</title>
+    <link>https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&amp;id=315000143&amp;Mode=0</link>
+    <description>案の公示日：2026/08/24&lt;br/&gt;受付締切日時：2026/09/23 00:00&lt;br/&gt;カテゴリー：外事&lt;br/&gt;問合せ先（所管省庁・部局名等）：出入国在留管理庁参事官室電話：045-370-9755（6924）&lt;br/&gt;</description>
+    <dc:date>2026-08-23T15:00:Z</dc:date>
+  </item>
+</rdf:RDF>
