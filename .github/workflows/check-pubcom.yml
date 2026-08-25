@@ -1,0 +1,37 @@
+name: パブコメ定期チェック
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  check-pubcom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 依存ライブラリをインストール
+        run: pip install -r requirements.txt
+
+      - name: パイプラインを実行
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline.py
+
+      - name: 結果ページ用のHTMLを生成
+        run: python build_page.py
+
+      - name: 変更をコミット
+        run: |
+          git config user.name "pubcom-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          git diff --staged --quiet || git commit -m "自動更新: パブコメチェック結果"
+          git push
